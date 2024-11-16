@@ -11,6 +11,5 @@ namespace MultiShop.Catalog.Dtos.ProductDtos
 		public string ProductImageUrl { get; set; }
 		public string ProductDescription { get; set; }
 		public string CategoryId { get; set; }
-		public Category Category { get; set; }
 	}
 }
