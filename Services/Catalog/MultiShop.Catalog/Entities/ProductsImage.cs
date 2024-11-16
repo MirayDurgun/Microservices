@@ -3,11 +3,11 @@ using MongoDB.Bson;
 
 namespace MultiShop.Catalog.Entities
 {
-	public class ProductsImages
+	public class ProductsImage
 	{
 		[BsonId]
 		[BsonRepresentation(BsonType.ObjectId)]
-		public string ProductImagesIDd { get; set; }
+		public string ProductImageIDd { get; set; }
 		public string ProductImage1 { get; set; }
 		public string ProductImage2 { get; set; }
 		public string ProductImage3 { get; set; }
